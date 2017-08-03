@@ -27,7 +27,6 @@ export class ClientsComponent implements OnInit {
       total += parseFloat(this.clients[i].balance);
     }
     this.totalOwed = total;
-    console.log(this.totalOwed);
   }
 
 }
